@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+/* @font-face {
+    font-family: "FreePixel";
+    src: local("FreePixel"), url(./assets/fonts/) format("truetype");
+} */
+
+html{
+    background-color:beige!important;
+}
+body{
+    background-color: transparent;
+}
+.m-5{
+    background-color: blue;
+}
