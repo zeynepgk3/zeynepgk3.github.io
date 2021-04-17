@@ -1,13 +1,315 @@
-<app-header></app-header>
-<div class="container h-100">
-    <div class="d-flex h-100 align-items-center justify-content-center">
-        <p>merhaba dünya</p>
-        <div class="m-5" style="background-color: transparent;">
-            ben transparanım
-            <div style="background-color: aquamarine;">
-                ben değilim
+<app-header class="header"></app-header>
+
+
+<div class="container">
+    <!--PROFIL-->
+    <div class="row">
+        <div class="col-md-5 my-5 profile">
+            <img src="../../../assets/profile.jpeg" class="profile-img rounded-circle ml-auto" alt="...">
+        </div>
+        <div class="col-md-7 info">
+            <div class="text-center">
+                <h1>Zeynep Gök</h1>
+                <hr><br>
+                <h5><i>Bilgisayar Mühendisliği Öğrencisi</i></h5>
+                <p><i>Web ve mobil teknolojilerine ilgili; doğa, çay ve kedi sever.</i></p><br>
+                <a href="../../../assets/resume-zeynepgok.pdf" download>
+                    <button type="button" class="btn btn-outline-danger" style="border-radius: 32px;">Özgeçmiş</button>
+                </a>
             </div>
         </div>
     </div>
+    <!--MEDYA-->
+    <div class="row mt-2">
+        <ul class="social-media">
+            <li>
+                <a href="https://www.github.com/zeynepgk3">
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                        <i class="fa fa-github fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/zeynepgok">
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/zeynep.gk3">
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                        <i class="fa fa-instagram fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!--EĞİTİMİM-->
+    <div class="row section" id="egitim">
+        <div class="col-lg-4 title">
+            <h3>Eğitimim</h3>
+        </div>
+        <div class="col-lg-8">
+            <!--Üniversite-->
+            <div class="card my-2">
+                <div class="card-body">
+                    <div class="media d-flex">
+                        <div class="media-body text-left">
+                            <h6 class="success">Bilgisayar Mühendisliği - İstanbul Üniversitesi - Cerrahpaşa</h6>
+                            <span>Lisans, 4. Sınıf</span>
+                        </div>
+                        <div class="media-body text-right" style="display: contents;">
+                            <span class="success">2017 - Devam</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Lise-->
+            <div class="card   my-2">
+                <div class="card-body">
+                    <div class="media d-flex">
+                        <div class="media-body text-left">
+                            <h6 class="success">Fahreddin Kerim Gökay Anadolu Lisesi</h6>
+                            <span>Sayısal, 84,5</span>
+                        </div>
+                        <div class="media-body text-right" style="display: contents;">
+                            <span class="success">2013 - 2017</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--TECRÜBELERİM-->
+    <div class="row section" id="tecrube">
+        <div class="col-lg-8">
+
+            <!--Cheefim-->
+            <div class="card my-2">
+                <div class="card-body">
+                    <div class="media d-flex">
+                        <div class="media-body text-left">
+                            <h6 class="success">Cheefim</h6>
+                            <p>Full Stack ve Mobil Geliştirici Stajyeri</p>
+                        </div>
+                        <div class="media-body text-right" style="display: contents;">
+                            <span class="success">Şub 2021 - Devam</span>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <i>
+                            <ul>
+                                <li>Angular.js ile restoranlarda temassız sipariş verilebilecek bir website
+                                    geliştiriyoruz</li>
+                                <li>Mentörlerimin yardımıyla React Native'i hem öğrenirken hem de cheefim uygulamasını
+                                    geliştiriyorum</li>
+                            </ul>
+                        </i>
+                    </div>
+                </div>
+            </div>
+
+            <!--Infotech-->
+            <div class="card   my-2">
+                <div class="card-body">
+                    <div class="media d-flex">
+                        <div class="media-body text-left">
+                            <h6 class="success">Infotech Academy</h6>
+                            <p>Full Stack Geliştirici Stajyeri</p>
+                        </div>
+                        <div class="media-body text-right" style="display: contents;">
+                            <span class="success">Tem 2020 - Ağu 2020</span>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <i>
+                            <ul>
+                                <li>Üç kişilik takımımla .NET Core MVC ve Bootstrap kullanarak "Unicourses" online kurs
+                                    websitesini geliştirdik</li>
+                            </ul>
+                        </i>
+                    </div>
+                </div>
+            </div>
+
+            <!--IQ Eğitim-->
+            <div class="card my-2">
+                <div class="card-body">
+                    <div class="media d-flex">
+                        <div class="media-body text-left">
+                            <h6 class="success">IQ Eğitim</h6>
+                            <p>Özel Öğretmen</p>
+                        </div>
+                        <div class="media-body text-right" style="display: contents;">
+                            <span class="success">Kas 2018 - Eyl 2019</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--GameEkstra-->
+            <div class="card my-2">
+                <div class="card-body">
+                    <div class="media d-flex">
+                        <div class="media-body text-left">
+                            <h6 class="success">GameEkstra</h6>
+                            <p>Grafiker</p>
+                        </div>
+                        <div class="media-body text-right" style="display: contents;">
+                            <span class="success">Mar 2018 - Eyl 2018</span>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <i>
+                            <ul>
+                                <li>Photoshop ve Illustrator kullanarak; ürün çekimi, sosyal medya yönetimi, ürün
+                                    fotoğraflarının düzenlenmesi, banner tasarımı</li>
+                            </ul>
+                        </i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+            <h3>Tecrübelerim</h3>
+        </div>
+    </div>
+    <!--OKUL FAALİYETLERİM-->
+    <div class="row section" id="faaliyet">
+        <div class="col-lg-4 title">
+            <h3>Sosyal</h3>
+        </div>
+        <div class="col-lg-8">
+            <!--İÜCBK-->
+            <div class="card my-2">
+                <div class="card-body">
+                    <div class="media d-flex">
+                        <div class="media-body text-left">
+                            <h6 class="success">İstanbul Üniversitesi - Cerrahpaşa Bilgisayar Kulübü</h6>
+                            <p>Yönetim Kurulu Başkanı</p>
+                        </div>
+                        <div class="media-body text-right" style="display: contents;">
+                            <span class="success">Eyl 2019 - Eyl 2020</span>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <i>
+                            <ul>
+                                <li>Kulüp üyeleri ve arkadaşlarımın yardımı ile; faaliyetler organize ettim,
+                                    projelere finans sağlamak için sponsorluk görüşmeleri yaptım, site ve
+                                    sosyal medya görselleri ile ilgilendim</li>
+                            </ul>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <!--IEEE-->
+            <div class="card  my-2">
+                <div class="card-body">
+                    <div class="media d-flex">
+                        <div class="media-body text-left">
+                            <h6 class="success">IEEE - İstanbul Üniversitesi - Cerrahpaşa</h6>
+                            <p>Aktif Üye, Grafiker</p>
+                        </div>
+                        <div class="media-body text-right" style="display: contents;">
+                            <span class="success">2017 - Eyl 2019</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--GÖNÜLLÜ FAALİYETLERİM-->
+    <div class="row section" id="faaliyet">
+        <div class="col-lg-4 title">
+            <h3>Gönüllü</h3>
+        </div>
+        <div class="col-lg-8">
+            <!--Gönül Elleri-->
+            <div class="card my-2">
+                <div class="card-body">
+                    <div class="media d-flex">
+                        <div class="media-body text-left">
+                            <h6 class="success">Gönül Elleri</h6>
+                            <p>Özel Öğretmen</p>
+                        </div>
+                        <div class="media-body text-right" style="display: contents;">
+                            <span class="success">Kas 2018 - Haz 2019</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--IEEE-->
+            <div class="card  my-2">
+                <div class="card-body">
+                    <div class="media d-flex">
+                        <div class="media-body text-left">
+                            <h6 class="success">Türkiye İzci Federasyonu
+                            </h6>
+                            <p>İzci Lideri</p>
+                        </div>
+                        <div class="media-body text-right" style="display: contents;">
+                            <span class="success">2018 - 2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--YETENEK-->
+    <div class="row section text-right" id="yetenek">
+        <div class="col-lg-8 skills">
+            <img src="../../../assets/skills/angular.png" title="Angular">
+            <img src="../../../assets/skills/react.png" title="React">
+            <img src="../../../assets/skills/flutter.png" title="Flutter">
+            <img src="../../../assets/skills/bootstrap.png" title="Bootstrap">
+
+            <img src="../../../assets/skills/js.png" title="JavaScript">
+            <img src="../../../assets/skills/csharp.png" title="C#">
+            <img src="../../../assets/skills/dart.png" title="Dart">
+            <img src="../../../assets/skills/java.png" title="Java">
+
+            <img src="../../../assets/skills/git.png" title="Git">
+            <img src="../../../assets/skills/mysql.png" title="MySQL">
+            <img src="../../../assets/skills/Octocat.png" title="Github">
+            <img src="../../../assets/skills/bitbucket.png" title="Bitbucket">
+            <img src="../../../assets/skills/jira.png" title="Jira">
+
+            <img src="../../../assets/skills/photoshop.png" title="Adobe Photoshop">
+            <img src="../../../assets/skills/xd.png" title="Adobe XD">
+            <img src="../../../assets/skills/illustrator.png" title="Adobe Illustrator">
+        </div>
+        <div class="col-lg-4 title">
+            <h3>Yeteneklerim</h3>
+        </div>
+    </div>
+    <!-- <div class="gallery text-center mt-5">
+        <h3>Portfolyo</h3>
+        <img src="../../../assets/portfolio/annelergünü.PNG">
+        <img src="../../../assets/portfolio/coffeetalk-bilgeadam.PNG">
+        <img src="../../../assets/portfolio/coffetalk-online.PNG">
+        <img src="../../../assets/portfolio/getek.PNG">
+        <img src="../../../assets/portfolio/ilham.PNG">
+        <img src="../../../assets/portfolio/kz19.PNG">
+    </div> -->
 </div>
-<app-footer></app-footer>
+
+<div class="toTop">
+    <a (click)="scrollTopFunction()">
+        <span class="fa-stack fa-2x">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fas fa-chevron-up fa-stack-1x fa-inverse" aria-hidden="true"></i>
+        </span>
+    </a>
+</div>
+
+<app-footer id="iletisim"></app-footer>
+<!--contact me form-->

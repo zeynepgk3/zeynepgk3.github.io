@@ -11,5 +11,8 @@ export class MainComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  scrollTopFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  
 }

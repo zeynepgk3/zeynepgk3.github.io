@@ -1,0 +1,44 @@
+/* #status{
+    display: inline;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 1.25rem;
+}
+#status.basarili{  
+    color: #1b1b1b; 
+    background-color: #00ffb3;
+    animation: status 4s ease forwards;
+}
+#status.basarisiz{
+    color: #f5f5f5;
+    background-color: #f50087;
+    animation: status 4s ease forwards;   
+} */
+
+p{
+    font-family: 'Rubik Mono One', sans-serif;;
+    font-size: xxx-large;
+    color: #f5f5f5;
+    text-align: right;
+}
+button{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+}
+/* @keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+} */
