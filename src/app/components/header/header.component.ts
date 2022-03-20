@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
     window.addEventListener("scroll",()=>{
       var header=document.querySelector('nav');
-      // console.log(header);
+      console.log(header);
       header?.classList.toggle("sticky",window.scrollY>0);
     })
   }
